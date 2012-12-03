@@ -34,7 +34,7 @@ require_once 'Zend/Soap/Client.php';
  * @copyright  2010 Jerome Mouneyrac
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
-class webservice_soap_client extends Zend_Soap_Client {
+class webservice_soapfda_client extends Zend_Soap_Client {
 
     /** @var string server url e.g. https://yyyyy.com/server.php */
     private $serverurl;
